@@ -1,0 +1,9 @@
+|Igualdade1Bit
+Saida <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst8.IN0
+B => inst1.IN1
+B => inst7.IN0
+Previous => inst.IN1
+
+

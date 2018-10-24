@@ -1,0 +1,117 @@
+Quartus II 64-Bit
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
+7
+3700
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+MaiorQ1bit
+# storage
+db|SD.(1).cnf
+db|SD.(1).cnf
+# case_insensitive
+# source_file
+maiorq1bit.bdf
+e9cc7546eeeb7d1ee3f264ea49f0f7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+MaiorQSignificativo
+# storage
+db|SD.(2).cnf
+db|SD.(2).cnf
+# case_insensitive
+# source_file
+maiorqsignificativo.bdf
+b8d5938cb9daab7db1892e98aa65528
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+ComparadorMenorQVetor
+# storage
+db|SD.(0).cnf
+db|SD.(0).cnf
+# case_insensitive
+# source_file
+comparadormenorqvetor.bdf
+5c9ce636232b5a83867ee7a2ebe1ed29
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+Igualdade1Bit
+# storage
+db|SD.(4).cnf
+db|SD.(4).cnf
+# case_insensitive
+# source_file
+igualdade1bit.bdf
+14eb24b67f66376a17663288283e46cb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Igualdade1Bit:inst2
+Igualdade1Bit:inst1
+Igualdade1Bit:inst3
+Igualdade1Bit:inst
+}
+# macro_sequence
+
+# end
+# entity
+Igualdade4Bits
+# storage
+db|SD.(3).cnf
+db|SD.(3).cnf
+# case_insensitive
+# source_file
+igualdade4bits.bdf
+5bc26b1bf0d4678163edda6321c1ac4f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
